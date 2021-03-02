@@ -14,6 +14,14 @@
   --brown-200: #7f7d7a;
 }
 
+.brown-text {
+  color: var(--brown) !important;
+}
+
+.brown-bg {
+  background-color: var(--brown) !important;
+}
+
 .brown-600-text {
   color: var(--brown-600) !important;
 }
@@ -370,7 +378,7 @@ input:focus, select:focus {
   }
 
   form {
-    font-size: 18px;
+    font-size: 13px;
   }
 }
 
