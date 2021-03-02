@@ -123,10 +123,11 @@ function socialShare(mediaType, url, type) {
   }
 }
 
-var slideIndex = [1,1,1,1,1,1,1,1,1];
+var slideIndex = [1,1,1,1,1,1,1,1,1,1,1,1];
 /* Class the members of each slideshow group with different CSS classes */
-var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6", "mySlides7", "mySlides8", "mySlides9"]
-var dotId = ["dots1", "dots2", "dots3", "dots4", "dots5", "dots6", "dots7", "dots8", "dots9"]
+var slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5", "mySlides6", 
+  "mySlides7", "mySlides8", "mySlides9", "mySlides10", "mySlides11", "mySlides12"]
+var dotId = ["dots1", "dots2", "dots3", "dots4", "dots5", "dots6", "dots7", "dots8", "dots9", "dots10", "dots11", "dots12"]
 
 function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
@@ -168,4 +169,7 @@ window.onload = function () {
   showSlides(1, 6);
   showSlides(1, 7);
   showSlides(1, 8);
+  showSlides(1, 9);
+  showSlides(1, 10);
+  showSlides(1, 11);
 }

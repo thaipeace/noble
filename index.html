@@ -16,24 +16,24 @@
     <img src="assets/images/logo.png" class="logo" />
     <div class="d-flex flex-column align-items-center">
       <div class="pb-5 d-flex flex-column text-center align-items-center">
-        <img src="assets/images/slogan.png" class="mb-5" />
+        <img src="assets/images/slogan.png" class="mb-5 slogan" />
         <div class="pb-3">
-          <h4>“제이노블 뷰티센터가 당신의 성공적 만남을 위해<br />토털 매칭케어 서비스를 제공합니다.“</h4>
+          <div>“제이노블 뷰티센터가 당신의 성공적 만남을 위해<br />토털 매칭케어 서비스를 제공합니다.“</div>
         </div>
         <div class="pb-5">
           <h3>지금 신청하고 가입하면 </h3>
         </div>
-        <span class="btn">퍼스널컬러 진단 무료</span>
+        <span class="btn" onclick="moveTo('last')">퍼스널컬러 진단 무료</span>
       </div>
     </div>
-    <img src="assets/images/s1-btn.png" class="circle" />
+    <img src="assets/images/s1-btn.png" class="circle d-none d-lg-block" />
   </article>
 
   <article class="s2">
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center mx-3 mx-sm-0">
       <img src="assets/images/s2-left.png" class="left" />
       <div class="d-flex flex-column text-center align-items-center py-5">
-        <img src="assets/images/s2-logo.png" class="mb-5" />
+        <img src="assets/images/s2-logo.png" class="mb-5 w-50 w-sm-100" />
         <div class="pb-3">
           소개팅, 선에서 계속 애프터를 받지 못하시는 분<br />이성을 만나고 싶은데, 어디서부터 시작해야할 지 막막하신 분
         </div>
@@ -50,30 +50,31 @@
   </article>
 
   <article class="s3">
-    <div class="d-flex flex-column text-center align-items-center py-5">
-      <div class="pb-3">
-        5가지 뷰티케어
+    <div class="container">
+      <div class="d-flex flex-column text-center align-items-center py-5 mx-3 mx-sm-0">
+        <div class="pb-3">
+          5가지 뷰티케어
+        </div>
+        <div>당신의 성공적인 만남을 위한</div>
+        <h3><b>제이노블 뷰티센터의<br class="d-sm-none"/>5가지 뷰티케어</b>를통해</h3>
+        <div class="mb-4">나만의 가치를 발견하고, 새로운 인연을 찾아보세요.</div>
+        <img src="assets/images/s3-hexa.png" class="mb-5 d-none d-sm-block" />
+        <img src="assets/images/s3-hexa-m.png" class="mb-5 d-sm-none" />
+        <span class="btn">퍼스널컬러 진단 무료</span>
       </div>
-      <h2 class="pb-3">
-        당신의 성공적인 만남을 위한<br />
-        <b>제이노블 뷰티센터의 5가지 뷰티케어</b>를통해<br />
-        나만의 가치를 발견하고, 새로운 인연을 찾아보세요.
-      </h2>
-      <img src="assets/images/s3-hexa.png" class="mb-5" />
-      <span class="btn">퍼스널컬러 진단 무료</span>
     </div>
   </article>
 
   <article class="s4">
     <div class="d-flex flex-column text-center align-items-center py-5">
-      <div class="s4-ba py-3 upline">
+      <div class="s4-ba py-3 upline text-uppercase">
         Before & After
       </div>
       <h2 class="pb-3">
-        나만의 가치를 발견하고, <br /><span class="brown-300-text">새로운인연</span>을찾아보세요.
+        나만의 가치를 발견하고, <br /><span style="color: #d9c9a8">새로운인연</span>을찾아보세요.
       </h2>
       <div class="mb-5">
-        <div class="slideshow-container">
+        <div class="slideshow-container d-block d-lg-flex">
           <a class="prev" onclick="plusSlides(-1, 0)"><img src="assets/images/arrow-left.png" /></a>
           <div>
             <div class="mySlides1 fade mySlides">
@@ -99,88 +100,192 @@
       <div class="upline py-3">전문가 소개</div>
       <h2 class="mb-5">
         <b>전문가들의 토탈케어를 통해</b><br/>
-        나도 몰랐던 <b>나만의 매력</b>을 찾아보시기 바랍니다.
+        나도 몰랐던 <b>나만의 매력</b>을<br class="d-lg-none"/> 찾아보시기 바랍니다.
       </h2>
-      <div class="row mx-0 text-left mb-3">
-        <div class="col pl-0 small">
-          <h3>스타일링 총괄</h3>
-          <div class="small">
-            <b>현) ㈜ 한국패션심리연구원 서울원장</b><br/>
-            현) 국제이미지컨설턴트 협회,Korea Seoul Chapter,
-            수석부회장<br/>
-            현) 한국예술심리상담협회 정회원<br/>
-            현) 삼성전자디지털프라자 아카데미 스타일링 전임강사<br/>
-            현) 금강대학교 퍼스널컬러 컨설턴트과정 전임강사<br/>
-            현) 신세계 조선호텔 그룹사 그루밍부문 자문위원<br/>
-            강의처: 디올 코리아, Chaumet, LBI, 조선호텔, 
-            몬드리안 호텔, CJ, 현대백화점 본점, 동국대학교, 
-            직업티비 외 다수
+      <div class="d-none d-lg-block">
+        <div class="row mx-0 text-left mb-3">
+          <div class="col pl-0 small">
+            <h3>스타일링 총괄</h3>
+            <div class="small">
+              <b>현) ㈜ 한국패션심리연구원 서울원장</b><br/>
+              현) 국제이미지컨설턴트 협회,Korea Seoul Chapter,
+              수석부회장<br/>
+              현) 한국예술심리상담협회 정회원<br/>
+              현) 삼성전자디지털프라자 아카데미 스타일링 전임강사<br/>
+              현) 금강대학교 퍼스널컬러 컨설턴트과정 전임강사<br/>
+              현) 신세계 조선호텔 그룹사 그루밍부문 자문위원<br/>
+              강의처: 디올 코리아, Chaumet, LBI, 조선호텔, 
+              몬드리안 호텔, CJ, 현대백화점 본점, 동국대학교, 
+              직업티비 외 다수
+            </div>
+          </div>
+          <div class="col px-0"><img src="assets/images/s5-p1.png" /></div>
+          <div class="col pr-0 small">
+            <h3>메이크업 스타일링</h3>
+            <div class="small">
+              <b>현) 한국패션심리연구원 메이크업 전임교수</b><br/>
+              전) 에이블C&C 교육총괄실장<br/>
+              전) 신세계 인터내셔널 VIDIVICI cosmetic <br/>
+              수석 아티스트 & 아티스트 교육 총괄 <br/>
+              전) 겔랑 수석 메이크업 아티스트<br/>
+              전) 샤넬 메이크업 아티스트<br/>
+              전) 신라호텔 (객실,프론트 데스크 파트) 직원 전담 메이크업<br/>
+              전) Beautyhouse style by chae 부원장
+            </div>
           </div>
         </div>
-        <div class="col px-0"><img src="assets/images/s5-p1.png" /></div>
-        <div class="col pr-0 small">
-          <h3>메이크업 스타일링</h3>
-          <div class="small">
-            <b>현) 한국패션심리연구원 메이크업 전임교수</b><br/>
-            전) 에이블C&C 교육총괄실장<br/>
-            전) 신세계 인터내셔널 VIDIVICI cosmetic <br/>
-            수석 아티스트 & 아티스트 교육 총괄 <br/>
-            전) 겔랑 수석 메이크업 아티스트<br/>
-            전) 샤넬 메이크업 아티스트<br/>
-            전) 신라호텔 (객실,프론트 데스크 파트) 직원 전담 메이크업<br/>
-            전) Beautyhouse style by chae 부원장
+        <div class="row mx-0 text-left w-100">
+          <div class="col pl-0 small">
+            <div class="text-center pb-3"><img src="assets/images/s5-p2.png" /></div>
+            <h3>헤어 스타일링</h3>
+            <div class="small">
+              <b>현) 제니하우스 청담힐 실장<br/>
+              배우</b>
+              손예진 / 비밀은 없다, 나쁜놈은 죽는다 <br/>
+              문채원/ 민우씨 오는날, 착한남자, 굿닥터, 참이슬cf, 뱅뱅cf<br/>
+              전효성/ 내성적인 보스, 원티드<br/>
+              <b>가수</b><br/>
+              애프터스쿨/ Ah, Diva, Bang, 너때문에 등<br/>
+              오렌지캬라멜/ 방콕시티, 마법소녀, <br/>
+              상하이로맨스, 아잉 등<br/>
+              I.O.I/ Whatta man, Miss Me?
+            </div>
+          </div>
+          <div class="col px-0 small">
+            <div class="text-center pb-3"><img src="assets/images/s5-p3.png" /></div>
+            <h3>메이크업 스타일링</h3>
+            <div class="small">
+              <b>현) 한국패션심리연구원 메이크업아티스트</b><br/>
+              현) 서정대학교 뷰티아트과 외래교수<br/>
+              2019 신라호텔 신입직원 헤어, 메이크업 교육<br/>
+              2019 아워홈 직원 대상 헤어, 메이크업 이미지 메이킹<br/>
+              2019 스톤브릭 강남점 론칭쇼 메이크업<br/>
+              2019 포스코 직원대상 헤어, 메이크업 이미지 메이킹<br/>
+              2019 H&M 강남점 오프닝쇼<br/>
+              2018 평창동계올림픽 개막식공연팀 메이크업 전담<br/>
+              2018 네스프레소 직원대상 헤어, 메이크업 이미지 메이킹<br/>
+              2017 파라다이스시티호텔 그루밍 교육
+            </div>
+          </div>
+          <div class="col pr-0 small">
+            <div class="text-center pb-3"><img src="assets/images/s5-p4.png" /></div>
+            <h3>포토 디렉팅</h3>
+            <div class="small">
+              <b>현) 제이노블 결혼정보 전임포토디렉터</b><br/>
+              현) 제이크이미지연구소 대표<br/>
+              현) 국제이미지컨설턴트 협회,Korea Seoul Chapter,<br/> 
+              사무국장<br/>
+              <b>고객</b> <br/>
+              SKT, LGu+, (재)동사섭, 블루밍경영연구소, 한스코칭, <br/>
+              사법연수원, 세상을 바꾸는 시간 15분, 법무법인 율촌,<br/>
+              세계한인법률가회, 사단법인 사내변호사협회, 뉴질랜드 대사관,<br/> 
+              호주 대사관, 가나 대사관, 인도 상공회의소, 경기인재개발원, <br/>
+              일산백병원, 강원대학교병원, 미국지방변호사회, 메타넷글로벌, <br/>
+              에이티커니코리아, 코엑스, 쉰들러엘리베이
+            </div>
           </div>
         </div>
       </div>
-      <div class="row mx-0 text-left w-100">
-        <div class="col pl-0 small">
-          <div class="text-center pb-3"><img src="assets/images/s5-p2.png" /></div>
-          <h3>헤어 스타일링</h3>
-          <div class="small">
-            <b>현) 제니하우스 청담힐 실장<br/>
-            배우</b>
-            손예진 / 비밀은 없다, 나쁜놈은 죽는다 <br/>
-            문채원/ 민우씨 오는날, 착한남자, 굿닥터, 참이슬cf, 뱅뱅cf<br/>
-            전효성/ 내성적인 보스, 원티드<br/>
-            <b>가수</b><br/>
-            애프터스쿨/ Ah, Diva, Bang, 너때문에 등<br/>
-            오렌지캬라멜/ 방콕시티, 마법소녀, <br/>
-            상하이로맨스, 아잉 등<br/>
-            I.O.I/ Whatta man, Miss Me?
+      <div class="d-lg-none">
+        <div class="slideshow-container">
+          <div>
+            <div class="mySlides10 fade mySlides">
+              <img src="assets/images/s5-p5.png" style="height: 270px">
+              <div class="text-left px-3">
+                <h3>스타일링 총괄</h3>
+                <div class="small">
+                  <b>현) ㈜ 한국패션심리연구원 서울원장</b><br/>
+                  현) 국제이미지컨설턴트 협회,Korea Seoul Chapter,
+                  수석부회장<br/>
+                  현) 한국예술심리상담협회 정회원<br/>
+                  현) 삼성전자디지털프라자 아카데미 스타일링 전임강사<br/>
+                  현) 금강대학교 퍼스널컬러 컨설턴트과정 전임강사<br/>
+                  현) 신세계 조선호텔 그룹사 그루밍부문 자문위원<br/>
+                  강의처: 디올 코리아, Chaumet, LBI, 조선호텔, 
+                  몬드리안 호텔, CJ, 현대백화점 본점, 동국대학교, 
+                  직업티비 외 다수
+                </div>
+              </div>
+            </div>
+            <div class="mySlides10 fade mySlides">
+              <img src="assets/images/s5-p6.png" style="height: 270px">
+              <div class="text-left px-3">
+                <h3>메이크업 스타일링</h3>
+                <div class="small">
+                  <b>현) 한국패션심리연구원 메이크업 전임교수</b><br/>
+                  전) 에이블C&C 교육총괄실장<br/>
+                  전) 신세계 인터내셔널 VIDIVICI cosmetic <br/>
+                  수석 아티스트 & 아티스트 교육 총괄 <br/>
+                  전) 겔랑 수석 메이크업 아티스트<br/>
+                  전) 샤넬 메이크업 아티스트<br/>
+                  전) 신라호텔 (객실,프론트 데스크 파트) 직원 전담 메이크업<br/>
+                  전) Beautyhouse style by chae 부원장
+                </div>
+              </div>
+            </div>
+            <div class="mySlides10 fade mySlides">
+              <img src="assets/images/s5-p2.png" style="height: 270px">
+              <div class="text-left px-3">
+                <h3>헤어 스타일링</h3>
+                <div class="small">
+                  <b>현) 제니하우스 청담힐 실장<br/>
+                  배우</b>
+                  손예진 / 비밀은 없다, 나쁜놈은 죽는다 <br/>
+                  문채원/ 민우씨 오는날, 착한남자, 굿닥터, 참이슬cf, 뱅뱅cf<br/>
+                  전효성/ 내성적인 보스, 원티드<br/>
+                  <b>가수</b><br/>
+                  애프터스쿨/ Ah, Diva, Bang, 너때문에 등<br/>
+                  오렌지캬라멜/ 방콕시티, 마법소녀, <br/>
+                  상하이로맨스, 아잉 등<br/>
+                  I.O.I/ Whatta man, Miss Me?
+                </div>
+              </div>
+            </div>
+            <div class="mySlides10 fade mySlides">
+              <img src="assets/images/s5-p3.png" style="height: 270px">
+              <div class="text-left px-3">
+                <h3>메이크업 스타일링</h3>
+                <div class="small">
+                  <b>현) 한국패션심리연구원 메이크업아티스트</b><br/>
+                  현) 서정대학교 뷰티아트과 외래교수<br/>
+                  2019 신라호텔 신입직원 헤어, 메이크업 교육<br/>
+                  2019 아워홈 직원 대상 헤어, 메이크업 이미지 메이킹<br/>
+                  2019 스톤브릭 강남점 론칭쇼 메이크업<br/>
+                  2019 포스코 직원대상 헤어, 메이크업 이미지 메이킹<br/>
+                  2019 H&M 강남점 오프닝쇼<br/>
+                  2018 평창동계올림픽 개막식공연팀 메이크업 전담<br/>
+                  2018 네스프레소 직원대상 헤어, 메이크업 이미지 메이킹<br/>
+                  2017 파라다이스시티호텔 그루밍 교육
+                </div>
+              </div>
+            </div>
+            <div class="mySlides10 fade mySlides">
+              <img src="assets/images/s5-p4.png" style="height: 270px">
+              <div class="text-left px-3">
+                <h3>포토 디렉팅</h3>
+                <div class="small">
+                  <b>현) 제이노블 결혼정보 전임포토디렉터</b><br/>
+                  현) 제이크이미지연구소 대표<br/>
+                  현) 국제이미지컨설턴트 협회,Korea Seoul Chapter,<br/> 
+                  사무국장<br/>
+                  <b>고객</b> <br/>
+                  SKT, LGu+, (재)동사섭, 블루밍경영연구소, 한스코칭, <br/>
+                  사법연수원, 세상을 바꾸는 시간 15분, 법무법인 율촌,<br/>
+                  세계한인법률가회, 사단법인 사내변호사협회, 뉴질랜드 대사관,<br/> 
+                  호주 대사관, 가나 대사관, 인도 상공회의소, 경기인재개발원, <br/>
+                  일산백병원, 강원대학교병원, 미국지방변호사회, 메타넷글로벌, <br/>
+                  에이티커니코리아, 코엑스, 쉰들러엘리베이
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col px-0 small">
-          <div class="text-center pb-3"><img src="assets/images/s5-p3.png" /></div>
-          <h3>메이크업 스타일링</h3>
-          <div class="small">
-            <b>현) 한국패션심리연구원 메이크업아티스트</b><br/>
-            현) 서정대학교 뷰티아트과 외래교수<br/>
-            2019 신라호텔 신입직원 헤어, 메이크업 교육<br/>
-            2019 아워홈 직원 대상 헤어, 메이크업 이미지 메이킹<br/>
-            2019 스톤브릭 강남점 론칭쇼 메이크업<br/>
-            2019 포스코 직원대상 헤어, 메이크업 이미지 메이킹<br/>
-            2019 H&M 강남점 오프닝쇼<br/>
-            2018 평창동계올림픽 개막식공연팀 메이크업 전담<br/>
-            2018 네스프레소 직원대상 헤어, 메이크업 이미지 메이킹<br/>
-            2017 파라다이스시티호텔 그루밍 교육
-          </div>
-        </div>
-        <div class="col pr-0 small">
-          <div class="text-center pb-3"><img src="assets/images/s5-p4.png" /></div>
-          <h3>포토 디렉팅</h3>
-          <div class="small">
-            <b>현) 제이노블 결혼정보 전임포토디렉터</b><br/>
-            현) 제이크이미지연구소 대표<br/>
-            현) 국제이미지컨설턴트 협회,Korea Seoul Chapter,<br/> 
-            사무국장<br/>
-            <b>고객</b> <br/>
-            SKT, LGu+, (재)동사섭, 블루밍경영연구소, 한스코칭, <br/>
-            사법연수원, 세상을 바꾸는 시간 15분, 법무법인 율촌,<br/>
-            세계한인법률가회, 사단법인 사내변호사협회, 뉴질랜드 대사관,<br/> 
-            호주 대사관, 가나 대사관, 인도 상공회의소, 경기인재개발원, <br/>
-            일산백병원, 강원대학교병원, 미국지방변호사회, 메타넷글로벌, <br/>
-            에이티커니코리아, 코엑스, 쉰들러엘리베이
-          </div>
+        <div style="text-align:center">
+          <span class="dots10 dot" onclick="currentSlide(1, 9)"></span>
+          <span class="dots10 dot" onclick="currentSlide(2, 9)"></span>
+          <span class="dots10 dot" onclick="currentSlide(3, 9)"></span>
+          <span class="dots10 dot" onclick="currentSlide(4, 9)"></span>
+          <span class="dots10 dot" onclick="currentSlide(5, 9)"></span>
         </div>
       </div>
     </div>
@@ -192,92 +297,176 @@
         REVIEW
       </div>
       <h2 class="pb-3">
-        <span style="color: #7f7d7a">그 동안 전문가들의 코칭을 받은 분들의<br/><b style="color: #d9c9a8;">실제 후기입니다.</b></span>
+        <span style="color: #7f7d7a">그 동안 전문가들의<br class="d-lg-none"/> 코칭을 받은 분들의<br/><b style="color: #d9c9a8;">실제 후기입니다.</b></span>
       </h2>
       <div class="mt-4">
-        <div class="slideshow-container small mb-5">
-          <a class="prev" onclick="plusSlides(-1, 1)"><img src="assets/images/arrow-left.png" /></a>
-          <div class="small">
-            <div class="mySlides2 fade mySlides">
-              <div class="row">
-                <div class="col">
-                  <div class="bg-white p-3 rounded">
-                    <div class="small">퍼스널 컬러 1:1 이용고객님 후기</div>
-                    <div class="my-4">
-                      “선생님도 친절하시고 너무 자세하게 잘 설명해 주셨어어요! 다른 사람들 한테도 추천하고 다닐거예요.<br/>
-                      너무 재미있었어요.<br/>
-                      그리고 유익하기도 했구요. 완전 추천드립니다.<br/>
-                      고민하지 마시고 신청하세요!
-                    </div>
-                    <div class="brown-300-text small">2021.01.21</div>
+        <div class="d-lg-none">
+          <div class="slideshow-container small mb-5">
+            <a class="prev" onclick="plusSlides(-1, 10)"><img src="assets/images/arrow-left.png" /></a>
+            <div>
+              <div class="mySlides11 fade mySlides">
+                <div class="bg-white p-3 rounded">
+                  <div class="small">퍼스널 컬러 1:1 이용고객님 후기</div>
+                  <div class="my-4">
+                    “선생님도 친절하시고 너무 자세하게 잘 설명해 주셨어어요! 다른 사람들 한테도 추천하고 다닐거예요.<br/>
+                    너무 재미있었어요.<br/>
+                    그리고 유익하기도 했구요. 완전 추천드립니다.<br/>
+                    고민하지 마시고 신청하세요!
                   </div>
+                  <div class="brown-300-text small">2021.01.21</div>
                 </div>
-                <div class="col">
-                  <div class="bg-white p-3 rounded">
-                    <div class="small">퍼스널 컬러 1:1 이용고객님 후기</div>
-                    <div class="my-4">
-                      그동안 패션에 관심도 별로 없었고, 내가 어떤 스타일/컬러의 옷이 어울리는지 잘 모르고 입고 싶은 옷을 입어 왔던것 같습니다. 확실히 내 얼굴톤이 어떤 색과 잘 어울리는지 먼저 알고 나서 그에 맞는 색상이나 스타일을 찾다보니 그 과정도 재미있고 많이 유익했습니다.
-                    </div>
-                    <div class="brown-300-text small">2021.01.04</div>
+              </div>
+              <div class="mySlides11 fade mySlides">
+                <div class="bg-white p-3 rounded">
+                  <div class="small">퍼스널 컬러 1:1 이용고객님 후기</div>
+                  <div class="my-4">
+                    그동안 패션에 관심도 별로 없었고, 내가 어떤 스타일/컬러의 옷이 어울리는지 잘 모르고 입고 싶은 옷을 입어 왔던것 같습니다. 확실히 내 얼굴톤이 어떤 색과 잘 어울리는지 먼저 알고 나서 그에 맞는 색상이나 스타일을 찾다보니 그 과정도 재미있고 많이 유익했습니다.
                   </div>
+                  <div class="brown-300-text small">2021.01.04</div>
                 </div>
-                <div class="col">
-                  <div class="bg-white p-3 rounded">
-                    <div class="small">퍼스널 컬러 1:1 이용고객님 후기</div>
-                    <div class="my-4">
-                      이 곳에서 퍼스널 컬러를 진단받으면서 그동안 제가 겨울딥이라고 자체진단을 했었는데 왜 계속 의문이 었는지 궁금증이 해소된 것 같아 너무 기쁩니다. 진단 결과 저는 봄 스트롱이었습니다. 너무나 의외였지만 선생님께서 친절히 설명을 해주시면서 ...
-                    </div>
-                    <div class="brown-300-text small">2021.02.14</div>
+              </div>
+              <div class="mySlides11 fade mySlides">
+                <div class="bg-white p-3 rounded">
+                  <div class="small">퍼스널 컬러 1:1 이용고객님 후기</div>
+                  <div class="my-4">
+                    이 곳에서 퍼스널 컬러를 진단받으면서 그동안 제가 겨울딥이라고 자체진단을 했었는데 왜 계속 의문이 었는지 궁금증이 해소된 것 같아 너무 기쁩니다. 진단 결과 저는 봄 스트롱이었습니다. 너무나 의외였지만 선생님께서 친절히 설명을 해주시면서 ...
                   </div>
+                  <div class="brown-300-text small">2021.02.14</div>
+                </div>
+              </div>
+              <div class="mySlides11 fade mySlides">
+                <div class="bg-white p-3 rounded">
+                  <div class="small">퍼스널 컬러 1:1 이용고객님 후기</div>
+                  <div class="my-4">
+                    “선생님도 친절하시고 너무 자세하게 잘 설명해 주셨어어요! 다른 사람들 한테도 추천하고 다닐거예요.<br/>
+                    너무 재미있었어요.<br/>
+                    그리고 유익하기도 했구요. 완전 추천드립니다.<br/>
+                    고민하지 마시고 신청하세요!
+                  </div>
+                  <div class="brown-300-text small">2021.01.21</div>
+                </div>
+              </div>
+              <div class="mySlides11 fade mySlides">
+                <div class="bg-white p-3 rounded">
+                  <div class="small">퍼스널 컬러 1:1 이용고객님 후기</div>
+                  <div class="my-4">
+                    “선생님도 친절하시고 너무 자세하게 잘 설명해 주셨어어요! 다른 사람들 한테도 추천하고 다닐거예요.<br/>
+                    너무 재미있었어요.<br/>
+                    그리고 유익하기도 했구요. 완전 추천드립니다.<br/>
+                    고민하지 마시고 신청하세요!
+                  </div>
+                  <div class="brown-300-text small">2021.01.21</div>
+                </div>
+              </div>
+              <div class="mySlides11 fade mySlides">
+                <div class="bg-white p-3 rounded">
+                  <div class="small">퍼스널 컬러 1:1 이용고객님 후기</div>
+                  <div class="my-4">
+                    “선생님도 친절하시고 너무 자세하게 잘 설명해 주셨어어요! 다른 사람들 한테도 추천하고 다닐거예요.<br/>
+                    너무 재미있었어요.<br/>
+                    그리고 유익하기도 했구요. 완전 추천드립니다.<br/>
+                    고민하지 마시고 신청하세요!
+                  </div>
+                  <div class="brown-300-text small">2021.01.21</div>
                 </div>
               </div>
             </div>
-            <div class="mySlides2 fade mySlides">
-              <div class="row">
-                <div class="col">
-                  <div class="bg-white p-3 rounded">
-                    <div class="small">퍼스널 컬러 1:1 이용고객님 후기</div>
-                    <div class="my-4">
-                      “선생님도 친절하시고 너무 자세하게 잘 설명해 주셨어어요! 다른 사람들 한테도 추천하고 다닐거예요.<br/>
-                      너무 재미있었어요.<br/>
-                      그리고 유익하기도 했구요. 완전 추천드립니다.<br/>
-                      고민하지 마시고 신청하세요!
-                    </div>
-                    <div class="brown-300-text small">2021.01.21</div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="bg-white p-3 rounded">
-                    <div class="small">퍼스널 컬러 1:1 이용고객님 후기</div>
-                    <div class="my-4">
-                      “선생님도 친절하시고 너무 자세하게 잘 설명해 주셨어어요! 다른 사람들 한테도 추천하고 다닐거예요.<br/>
-                      너무 재미있었어요.<br/>
-                      그리고 유익하기도 했구요. 완전 추천드립니다.<br/>
-                      고민하지 마시고 신청하세요!
-                    </div>
-                    <div class="brown-300-text small">2021.01.21</div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="bg-white p-3 rounded">
-                    <div class="small">퍼스널 컬러 1:1 이용고객님 후기</div>
-                    <div class="my-4">
-                      “선생님도 친절하시고 너무 자세하게 잘 설명해 주셨어어요! 다른 사람들 한테도 추천하고 다닐거예요.<br/>
-                      너무 재미있었어요.<br/>
-                      그리고 유익하기도 했구요. 완전 추천드립니다.<br/>
-                      고민하지 마시고 신청하세요!
-                    </div>
-                    <div class="brown-300-text small">2021.01.21</div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <a class="next" onclick="plusSlides(1, 10)"><img src="assets/images/arrow-left.png" class="right-revert" /></a>
           </div>
-          <a class="next" onclick="plusSlides(1, 1)"><img src="assets/images/arrow-left.png" class="right-revert" /></a>
+          <div style="text-align:center">
+            <span class="dots11 dot" onclick="currentSlide(1, 10)"></span>
+            <span class="dots11 dot" onclick="currentSlide(2, 10)"></span>
+            <span class="dots11 dot" onclick="currentSlide(3, 10)"></span>
+            <span class="dots11 dot" onclick="currentSlide(4, 10)"></span>
+            <span class="dots11 dot" onclick="currentSlide(5, 10)"></span>
+            <span class="dots11 dot" onclick="currentSlide(6, 10)"></span>
+          </div>
         </div>
-        <div style="text-align:center">
-          <span class="dots2 dot" onclick="currentSlide(1, 1)"></span>
-          <span class="dots2 dot" onclick="currentSlide(2, 1)"></span>
+        <div class="d-none d-lg-block">
+          <div class="slideshow-container small mb-5">
+            <a class="prev" onclick="plusSlides(-1, 1)"><img src="assets/images/arrow-left.png" /></a>
+            <div class="small">
+              <div class="mySlides2 fade mySlides">
+                <div class="row">
+                  <div class="col">
+                    <div class="bg-white p-3 rounded">
+                      <div class="small">퍼스널 컬러 1:1 이용고객님 후기</div>
+                      <div class="my-4">
+                        “선생님도 친절하시고 너무 자세하게 잘 설명해 주셨어어요! 다른 사람들 한테도 추천하고 다닐거예요.<br/>
+                        너무 재미있었어요.<br/>
+                        그리고 유익하기도 했구요. 완전 추천드립니다.<br/>
+                        고민하지 마시고 신청하세요!
+                      </div>
+                      <div class="brown-300-text small">2021.01.21</div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="bg-white p-3 rounded">
+                      <div class="small">퍼스널 컬러 1:1 이용고객님 후기</div>
+                      <div class="my-4">
+                        그동안 패션에 관심도 별로 없었고, 내가 어떤 스타일/컬러의 옷이 어울리는지 잘 모르고 입고 싶은 옷을 입어 왔던것 같습니다. 확실히 내 얼굴톤이 어떤 색과 잘 어울리는지 먼저 알고 나서 그에 맞는 색상이나 스타일을 찾다보니 그 과정도 재미있고 많이 유익했습니다.
+                      </div>
+                      <div class="brown-300-text small">2021.01.04</div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="bg-white p-3 rounded">
+                      <div class="small">퍼스널 컬러 1:1 이용고객님 후기</div>
+                      <div class="my-4">
+                        이 곳에서 퍼스널 컬러를 진단받으면서 그동안 제가 겨울딥이라고 자체진단을 했었는데 왜 계속 의문이 었는지 궁금증이 해소된 것 같아 너무 기쁩니다. 진단 결과 저는 봄 스트롱이었습니다. 너무나 의외였지만 선생님께서 친절히 설명을 해주시면서 ...
+                      </div>
+                      <div class="brown-300-text small">2021.02.14</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mySlides2 fade mySlides">
+                <div class="row">
+                  <div class="col">
+                    <div class="bg-white p-3 rounded">
+                      <div class="small">퍼스널 컬러 1:1 이용고객님 후기</div>
+                      <div class="my-4">
+                        “선생님도 친절하시고 너무 자세하게 잘 설명해 주셨어어요! 다른 사람들 한테도 추천하고 다닐거예요.<br/>
+                        너무 재미있었어요.<br/>
+                        그리고 유익하기도 했구요. 완전 추천드립니다.<br/>
+                        고민하지 마시고 신청하세요!
+                      </div>
+                      <div class="brown-300-text small">2021.01.21</div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="bg-white p-3 rounded">
+                      <div class="small">퍼스널 컬러 1:1 이용고객님 후기</div>
+                      <div class="my-4">
+                        “선생님도 친절하시고 너무 자세하게 잘 설명해 주셨어어요! 다른 사람들 한테도 추천하고 다닐거예요.<br/>
+                        너무 재미있었어요.<br/>
+                        그리고 유익하기도 했구요. 완전 추천드립니다.<br/>
+                        고민하지 마시고 신청하세요!
+                      </div>
+                      <div class="brown-300-text small">2021.01.21</div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="bg-white p-3 rounded">
+                      <div class="small">퍼스널 컬러 1:1 이용고객님 후기</div>
+                      <div class="my-4">
+                        “선생님도 친절하시고 너무 자세하게 잘 설명해 주셨어어요! 다른 사람들 한테도 추천하고 다닐거예요.<br/>
+                        너무 재미있었어요.<br/>
+                        그리고 유익하기도 했구요. 완전 추천드립니다.<br/>
+                        고민하지 마시고 신청하세요!
+                      </div>
+                      <div class="brown-300-text small">2021.01.21</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="next" onclick="plusSlides(1, 1)"><img src="assets/images/arrow-left.png" class="right-revert" /></a>
+          </div>
+          <div style="text-align:center">
+            <span class="dots2 dot" onclick="currentSlide(1, 1)"></span>
+            <span class="dots2 dot" onclick="currentSlide(2, 1)"></span>
+          </div>
         </div>
       </div>
     </div>
@@ -296,43 +485,72 @@
         퍼스널컬러 진단은 본인에게 가장 어울리는 컬러를 찾고 이를 기준으로 <br/>
         메이크업, 염색, 패션 배색, 향수를 찾아드립니다.
       </div>
-      <div class="row mx-0 mb-2 justify-content-center small w-100">
-        <div class="col-3">
+      <div class="d-none d-lg-block">
+        <div class="row mx-0 mb-2 justify-content-center small w-100">
+          <div class="col-3">
+            <img src="assets/images/s7-p1.png" class="w-100" />
+          </div>
+          <div class="col-3">
+            <img src="assets/images/s7-p2.png" class="w-100" />
+          </div>
+          <div class="col-3">
+            <img src="assets/images/s7-p3.png" class="w-100" />
+          </div>
+        </div>
+        <div class="row mx-0 mb-4 justify-content-center small w-100">
+          <div class="col-3">
+            전문가의 육안 측정
+          </div>
+          <div class="col-3">
+            200여 종의 색상 드레이프<br/>
+            유광/ 무광 진단으로 정확한 분석
+          </div>
+          <div class="col-3">
+            염색 컬러 추천
+          </div>
+        </div>
+        <div class="row mx-0 mb-2 justify-content-center small w-100">
+          <div class="col-3">
+            <img src="assets/images/s7-p4.png" class="w-100" />
+          </div>
+          <div class="col-3">
+            <img src="assets/images/s7-p5.png" class="w-100" />
+          </div>
+        </div>
+        <div class="row mx-0 justify-content-center small w-100">
+          <div class="col-3">
+            메이크업 컬러 추천
+          </div>
+          <div class="col-3">
+            패션 배색 추천
+          </div>
+        </div>
+      </div>
+      <div class="d-lg-none">
+        <div class="mb-3">
           <img src="assets/images/s7-p1.png" class="w-100" />
+          <div>
+            전문가의 육안 측정
+          </div>
         </div>
-        <div class="col-3">
+        <div class="mb-3">
           <img src="assets/images/s7-p2.png" class="w-100" />
+          <div>
+            200여 종의 색상 드레이프<br/>
+            유광/ 무광 진단으로 정확한 분석
+          </div>
         </div>
-        <div class="col-3">
+        <div class="mb-3">
           <img src="assets/images/s7-p3.png" class="w-100" />
+          <div>염색 컬러 추천</div>
         </div>
-      </div>
-      <div class="row mx-0 mb-4 justify-content-center small w-100">
-        <div class="col-3">
-          전문가의 육안 측정
-        </div>
-        <div class="col-3">
-          200여 종의 색상 드레이프<br/>
-          유광/ 무광 진단으로 정확한 분석
-        </div>
-        <div class="col-3">
-          염색 컬러 추천
-        </div>
-      </div>
-      <div class="row mx-0 mb-2 justify-content-center small w-100">
-        <div class="col-3">
+        <div class="mb-3">
           <img src="assets/images/s7-p4.png" class="w-100" />
+          <div>메이크업 컬러 추천</div>
         </div>
-        <div class="col-3">
+        <div>
           <img src="assets/images/s7-p5.png" class="w-100" />
-        </div>
-      </div>
-      <div class="row mx-0 justify-content-center small w-100">
-        <div class="col-3">
-          메이크업 컬러 추천
-        </div>
-        <div class="col-3">
-          패션 배색 추천
+          <div>패션 배색 추천</div>
         </div>
       </div>
     </div>
@@ -365,23 +583,25 @@
           <span class="dots3 dot" onclick="currentSlide(2, 2)"></span>
         </div>
       </div>
-      <div class="row mx-0 justify-content-center w-100 text-left small">
-        <div class="col-4">
-          <div class="row">
-            <div class="col-2 border-right text-center">여성</div>
-            <div class="col">
-              헤어디자인, 안경테, 선글라스테, 귀걸이, 목걸이
-              상,하의 디자인 (뮈뉘,디자인등), 가방, 신발종류
-              브레이저 사이즈 및 디자인
+      <div class="container small">
+        <div class="row mx-0 justify-content-center w-100 text-left small">
+          <div class="col-12 col-xl-4 mb-4 mb-xl-0">
+            <div class="row">
+              <div class="col-2 border-right text-center">여성</div>
+              <div class="col">
+                헤어디자인, 안경테, 선글라스테, 귀걸이, 목걸이
+                상,하의 디자인 (뮈뉘,디자인등), 가방, 신발종류
+                브레이저 사이즈 및 디자인
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-4">
-          <div class="row">
-            <div class="col-2 border-right text-center">남성</div>
-            <div class="col">
-              헤어디자인, 안경테, 선글라스테<br/>
-              상,하의 디자인 (뮈뉘,디자인등), 가방, 신발종류
+          <div class="col-12 col-xl-4">
+            <div class="row">
+              <div class="col-2 border-right text-center">남성</div>
+              <div class="col">
+                헤어디자인, 안경테, 선글라스테<br/>
+                상,하의 디자인 (뮈뉘,디자인등), 가방, 신발종류
+              </div>
             </div>
           </div>
         </div>
@@ -423,32 +643,66 @@
     <div class="d-flex flex-column text-center align-items-center py-5 px-0 container">
       <h2>Step4.쇼핑동행</h2>
       <div class="mb-5 small">
-        회원님의 스타일을 완성할 스타일을 쇼핑을 통해 완성해드립니다.
+        회원님의 스타일을 완성할<br class="d-sm-none"/> 스타일을 쇼핑을 통해 완성해드립니다.
       </div>
-      <div class="row mx-0 mb-3 pt-5 justify-content-center small w-100"
-        style="background: url('assets/images/s10-arrow.png') center center no-repeat;">
-        <div class="col-2 px-4">
-          <img src="assets/images/s10-p1.png" class="w-100" />
+      <div class="d-none d-sm-block">
+        <div class="row mx-0 mb-3 pt-5 justify-content-center small w-100"
+          style="background: url('assets/images/s10-arrow.png') center center no-repeat;">
+          <div class="col-3 px-4">
+            <img src="assets/images/s10-p1.png" class="w-100" />
+          </div>
+          <div class="col-3 px-4">
+            <img src="assets/images/s10-p2.png" class="w-100" />
+          </div>
+          <div class="col-3 px-4">
+            <img src="assets/images/s10-p3.png" class="w-100" />
+          </div>
         </div>
-        <div class="col-2 px-4">
-          <img src="assets/images/s10-p2.png" class="w-100" />
-        </div>
-        <div class="col-2 px-4">
-          <img src="assets/images/s10-p3.png" class="w-100" />
+        <div class="row mx-0 mb-4 justify-content-center small w-100">
+          <div class="col-3 px-4">
+            <div style="color: #ff4b76;">Step1</div>
+            <div class="small">사전 인터뷰, 고객 니즈파악# 사이즈 및 예산 확인</div>
+          </div>
+          <div class="col-3 px-4">
+            <div style="color: #ff4b76;">Step2</div>
+            <div class="small">쇼핑장소 선정 및 사전 안내</div>
+          </div>
+          <div class="col-3 px-4">
+            <div style="color: #ff4b76;">Step3</div>
+            <div class="small">쇼핑시작</div>
+          </div>
         </div>
       </div>
-      <div class="row mx-0 mb-4 justify-content-center small w-100">
-        <div class="col-2 px-4">
-          <div style="color: #ff4b76;">Step1</div>
-          <div class="small">사전 인터뷰, 고객 니즈파악# 사이즈 및 예산 확인</div>
+      <div class="d-sm-none">
+        <div class="slideshow-container">
+          <div>
+            <div class="mySlides12 fade mySlides">
+              <img src="assets/images/s10-p1.png" style="width:100%">
+              <div class="mt-3">
+                <div style="color: #ff4b76;">Step1</div>
+                <div class="small">사전 인터뷰, 고객 니즈파악<br/>사이즈 및 예산 확인</div>
+              </div>
+            </div>
+            <div class="mySlides12 fade mySlides">
+              <img src="assets/images/s10-p2.png" style="width:100%">
+              <div class="mt-3">
+                <div style="color: #ff4b76;">Step2</div>
+                <div class="small">쇼핑장소 선정 및 사전 안내</div>
+              </div>
+            </div>
+            <div class="mySlides12 fade mySlides">
+              <img src="assets/images/s10-p3.png" style="width:100%">
+              <div class="mt-3">
+                <div style="color: #ff4b76;">Step3</div>
+                <div class="small">쇼핑시작</div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-2 px-4">
-          <div style="color: #ff4b76;">Step2</div>
-          <div class="small">쇼핑장소 선정 및 사전 안내</div>
-        </div>
-        <div class="col-2 px-4">
-          <div style="color: #ff4b76;">Step3</div>
-          <div class="small">쇼핑시작</div>
+        <div style="text-align:center">
+          <span class="dots12 dot" onclick="currentSlide(1, 11)"></span>
+          <span class="dots12 dot" onclick="currentSlide(2, 11)"></span>
+          <span class="dots12 dot" onclick="currentSlide(3, 11)"></span>
         </div>
       </div>
     </div>
@@ -460,8 +714,8 @@
         Step5.메이크업레슨
       </h2>
       <div class="mb-5 small">
-        나의 얼굴 장단점을 이해하고, 장점을 부각 단점을 보완할 수 있도록 <br/>
-        메이크업 및 헤어 연출방법을 1:1로 배울 수 있습니다.
+        나의 얼굴 장단점을 이해하고, 장점을 부각 단점을<br class="d-md-none"/> 보완할 수 있도록 <br class="d-none d-md-block"/>
+        메이크업 및 헤어 연출방법을<br class="d-md-none"/> 1:1로 배울 수 있습니다.
       </div>
       <div class="mb-5">
         <div class="slideshow-container">
@@ -490,7 +744,7 @@
         Step6. 프로필 촬영
       </h2>
       <div class="mb-5 small">
-        나의 얼굴 장단점을 이해하고, 장점을 부각 단점을 보완할 수 있도록 <br/>
+        나의 얼굴 장단점을 이해하고,<br class="d-md-none"/> 장점을 부각 단점을 보완할 수 있도록 <br/>
         메이크업 및 헤어 연출방법을 1:1로 배울 수 있습니다.
       </div>
       <div class="mb-5">
@@ -584,7 +838,7 @@
       </h2>
       <div class="mb-5">
         <b>문의전화 : 1588-9345</b><br/>
-        <span class="small">주소 : 서울시 강남구 압구정로 30길 9 노아빌딩 4층    안내 : 압구정역 2번 출구 (도보 10미터 앞)</span>
+        <span class="small">주소 : 서울시 강남구 압구정로 30길 9 노아빌딩 4층<br class="d-lg-none"/>안내 : 압구정역 2번 출구 (도보 10미터 앞)</span>
       </div>
       <div class="mb-5">
         <div class="slideshow-container">
@@ -607,7 +861,7 @@
     </div>
   </article>
 
-  <article class="s16">
+  <article class="s16" id="last">
     <div class="d-flex flex-column text-center align-items-center py-5">
       <div class="py-3 upline" style="color: #dfd8cd;">
         CONTACT US
@@ -617,11 +871,11 @@
       </h2>
       <div class="text-white">문의전화 : 1588-9345</div>
       <div class="my-5 row text-white small justify-content-center w-100">
-        <form class="col-4 small">
+        <form class="col-10 col-sm-8 col-lg-4 small" style="max-width: 600px;">
           <div class="row">
             <div class="form-item col-12">
               <div class="row mx-0">
-                <label class="col-3 px-0">이        름</label>
+                <label class="col-3 px-0">이 름</label>
                 <div class="col-8 px-0"><input type="text" name="s16-f1"/></div>
               </div>
             </div>
@@ -710,9 +964,23 @@
     </div>
   </article>
   <footer class="text-center py-4 small text-white">
-    서울시 강남구 신사동 612번지 노아빌딩 4층 / 대표 : 김명찬 / 국내결혼중개신고업번호 : 강남 150008 / 개인정보책임관리자 : 김명찬<br/>
-    상호명 : (주)제이노블결혼정보 / 사업자등록번호 : 739-86-00096 / E-Mail : jnoble@jnoble.co.kr
+    <div class="d-none d-xl-block">
+      서울시 강남구 신사동 612번지 노아빌딩 4층 / 대표 : 김명찬 / 국내결혼중개신고업번호 : 강남 150008 / 개인정보책임관리자 : 김명찬<br/>
+      상호명 : (주)제이노블결혼정보 / 사업자등록번호 : 739-86-00096 / E-Mail : jnoble@jnoble.co.kr
+    </div>
+    <div class="d-xl-none">
+      사업자등록번호 : 739-86-00096<br/>
+      서울시 강남구 신사동 612번지 노아빌딩 4층<br/>
+      대표 : 김명찬 / 국내결혼중개신고업번호 : 강남 150008<br/>
+      개인정보책임관리자 : 김명찬 / E-Mail : jnoble@jnoble.co.kr
+    </div>
   </footer>
+  <div class="d-flex justify-content-end d-lg-none" style="background-color: #000;">
+    <div class="text-center position-relative cursor-pointer"
+      style="width: 304px; height: 115px; overflow: hidden; background-color: #ffce00;">
+      <img src="assets/images/s1-btn-m.png" class="position-absolute" style="top: -30px; left: 25px; width: 80%;" />
+    </div>
+  </div>
 </body>
 
 </html>
