@@ -108,6 +108,7 @@ a:hover {
   width: fit-content;
   color: var(--white);
   font-size: 21px;
+  border-radius: unset;
 }
 
 .s2 {
@@ -253,11 +254,13 @@ footer {
   padding: 10px 0;
 }
 
-input, select {
+input[type="text"], select {
   background: transparent;
   border: none;
   border-bottom: 1px solid var(--white);
-  color: var(--white)
+  color: var(--white);
+  padding: 20px;
+  width: 100%;
 }
 
 select option {
@@ -269,6 +272,10 @@ input:focus, select:focus {
   outline: none;
   border: none;
   border-bottom: 1px solid var(--white);
+}
+
+.mySlides11, .mySlides2 {
+  font-weight: bold;
 }
 
 @media (min-width: 320px) {
@@ -361,11 +368,15 @@ input:focus, select:focus {
     text-align: center;
     font-weight: bold;
   }
+
+  form {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 768px) {
   body {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   h2 {
@@ -373,11 +384,11 @@ input:focus, select:focus {
   }
 
   h3 {
-    font-size: 37px;
+    font-size: 35px;
   }
 
   h4 {
-    font-size: 28px;
+    font-size: 25px;
   }
 
   h5 {
@@ -406,6 +417,10 @@ input:focus, select:focus {
     height: 305px;
     left: -50%;
     top: -135px;
+  }
+
+  form {
+    font-size: 24px;
   }
 }
 
