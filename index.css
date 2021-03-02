@@ -38,6 +38,14 @@
   background-color: var(--brown-100) !important;
 }
 
+.brown-200-text {
+  color: var(--brown-200) !important;
+}
+
+.brown-200-bg {
+  background-color: var(--brown-200) !important;
+}
+
 body		{ 
     font-family: 'MaruBuri', sans-serif;
     background-color: var(--white);
@@ -86,19 +94,20 @@ a:hover {
 }
 
 .s1 .circle {
-  position: absolute;
-  bottom: 40px;
+  position: fixed;
+  top: 590px;
   right: 75px;
   cursor: pointer;
+  z-index: 3;
 }
 
 .btn {
-  font-weight: bold;
   padding: 20px 45px;
   cursor: pointer;
   background-color: #1b2537;
   width: fit-content;
   color: var(--white);
+  font-size: 21px;
 }
 
 .s2 {
@@ -138,12 +147,16 @@ a:hover {
   width: 100%;
 }
 
+.s3 .upline::before {
+  background-color: var(--brown);
+}
+
 .s4 {
   background: url(assets/images/s4-bg.png) center center no-repeat;
   background-size: cover;
 }
 
-.s4 h2 {
+.s4 h3 {
   position: relative;
   color: var(--white);
 }
@@ -176,6 +189,13 @@ a:hover {
 
 .s6 {
   background-color: var(--brown);
+}
+
+.s6 .date {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .s7 {
@@ -240,6 +260,11 @@ input, select {
   color: var(--white)
 }
 
+select option {
+  font-size: 20px;
+  color: var(--black);
+}
+
 input:focus, select:focus {
   outline: none;
   border: none;
@@ -248,7 +273,7 @@ input:focus, select:focus {
 
 @media (min-width: 320px) {
   body {
-    font-size: 16px;
+    font-size: 11px;
   }
 
   h2 {
@@ -257,6 +282,18 @@ input:focus, select:focus {
 
   h3 {
     font-size: 23px;
+  }
+
+  h4 {
+    font-size: 17px;
+  }
+
+  h5 {
+    font-size: 13px;
+  }
+
+  h6 {
+    font-size: 10px;
   }
 
   .s1 .slogan {
@@ -297,7 +334,7 @@ input:focus, select:focus {
     left: unset;
   }
 
-  .s4 h2::before {
+  .s4 h3::before {
     background: url(assets/images/s4-tw.png) center center no-repeat;
     content: '';
     display: block;
@@ -312,11 +349,23 @@ input:focus, select:focus {
     width: 50%;
     margin: 0 auto;
   }
+
+  .mySlides10 > div {
+    width: 50%;
+    transform: translateY(-10px);
+    margin: 0 auto;
+    min-width: 203px;
+  }
+
+  .mySlides10 > div h4 {
+    text-align: center;
+    font-weight: bold;
+  }
 }
 
 @media (min-width: 768px) {
   body {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   h2 {
@@ -325,6 +374,18 @@ input:focus, select:focus {
 
   h3 {
     font-size: 37px;
+  }
+
+  h4 {
+    font-size: 28px;
+  }
+
+  h5 {
+    font-size: 22px;
+  }
+
+  h6 {
+    font-size: 18px;
   }
 
   .s1 .slogan {
@@ -340,11 +401,11 @@ input:focus, select:focus {
     right: -55%;
   }
 
-  .s4 h2::before {
+  .s4 h3::before {
     width: 310px;
     height: 305px;
-    left: -60%;
-    top: -140px;
+    left: -50%;
+    top: -135px;
   }
 }
 
@@ -416,7 +477,7 @@ input:focus, select:focus {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 1200px;
   position: relative;
   margin: 0 auto 20px;
   display: flex;
