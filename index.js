@@ -158,6 +158,28 @@ function showSlides(n, no) {
   d[slideIndex[no]-1].className += " active";
 }
 
+var touchstartEvent;
+function swipeSlides() {
+  const slideElm = document.getElementsByClassName('slideshow-container')
+  Array.from(slideElm).forEach(slideElm => {
+    slideElm.addEventListener('touchstart', (e) => {
+      touchstartEvent = e
+    })
+
+    slideElm.addEventListener('touchend', (e) => {
+      handleSwipe(e, parseInt(slideElm.attributes.dataindex.value))
+      e.stopPropagation()
+    })
+  })
+}
+
+function handleSwipe(touchMoveEvent, ind) {
+  if (!ind) return
+
+  const isGoLeft = touchstartEvent.changedTouches[0].pageX - touchMoveEvent.changedTouches[0].pageX >= 0
+  isGoLeft ? plusSlides(-1, ind) : plusSlides(1, ind)
+}
+
 window.onload = function () {
   index.init()
   showSlides(1, 0);
@@ -172,4 +194,6 @@ window.onload = function () {
   showSlides(1, 9);
   showSlides(1, 10);
   showSlides(1, 11);
+  
+  swipeSlides()
 }
